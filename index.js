@@ -73,6 +73,8 @@ module.exports.getPurchaseData = function (purchaseData) {
 	}
 };
 
+module.exports.errors = require('./lib/errors');
+
 // test use only
 module.exports.reset = function () {
 	// resets google setup
